@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5a5c698f16.js" crossorigin="anonymous"></script>
+    <title>Chalk Board</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!--   section Math factores -->
+    <h1 class="section-heading">Chalk Board</h1>
+    <div class="container-fluid"></div>
+    <div class="row">
+        <div class="col-lg-2 col-md-12">
+            <h3 class="h3-header">Contents</h3>
+            <hr class="hr">
+            <ol>
+                <li>Number Generators</li>
+                <ul>
+                    <li><a href="#factors">Factors of Numbers</a></li>
+                    <li><a href="#primesFactors">Prime Factors</a></li>
+                    <li><a href="hcf">HCF</a></li>
+                    <li><a href="#fibonacci">Fibonacci</a></li>
+                    <li><a href="#pell">Pell</a></li>
+                </ul>
+                <hr>
+                <li>Algebra and Trignometry</li>
+                <ul>
+                    <li><a href="#">Sets and Number Systems</a></li>
+                    <li><a href="#">Propositional Logic</a></li>
+                    <li><a href="#">Methods of Proofs</a></li>
+                    <li><a href="#">Functions and Inequalities</a></li>
+                    <li><a href="#">Trignometry</a></li>
+                </ul>
+                <hr>
+                <li>Vectors and Geometry</li>
+                <ul>
+                    <li><a href="#">Vector Algebra</a></li>
+                    <li><a href="#">Lines and Circle</a></li>
+                    <li><a href="#">Conic Sections</a></li>
+                </ul>
+                <hr>
+                <li>Calculus</li>
+                <ul>
+                    <li><a href="#">Limits</a></li>
+                    <li><a href="#">Squeeze Principle</a></li>
+                    <li><a href="#">Continuity</a></li>
+                    <li><a href="#">Intermediate Value Theorem</a></li>
+                    <li><a href="#">Differentiation</a></li>
+                    <li><a href="#">Integration</a></li>
+                </ul>
+                <hr>
+            </ol>
+        </div>
+        <div class="main col generators">
+            <div class="factors divs" id="factors">
+                <h3>Find the Factors of a Number</h3>
+                <input type="text" class="factorsInput input" placeholder="Enter a Number">
+                <button class="btn-factorsInput btn">Enter</button>
+                <h4 class="h3-factorsInput"></h4>
+            </div>
+            <div class="primesFactors divs" id="primesFactors">
+                <h3>Find the Prime Factors of a Number</h3>
+                <input type="text" class="primeFactorsInput input" placeholder="Enter a Number">
+                <button class="btn-primeFactorsInput btn">Enter</button>
+                <h4 class="h3-primeFactorsInput"></h4>
+            </div>
+            <div class="class-fibonacci divs" id="fibonacci">
+                <h3>Generate Fibonacci Sequence</h3>
+                <input type="text" class="fibonacci input" placeholder="Enter a Number">
+                <button class="btn-fibonacci btn">Enter</button>
+                <h4 class="h3-fibonacci"></h4>
+            </div>
+            <div class="class-pell divs" id="pell">
+                <h3>Generate Pell Sequence</h3>
+                <input type="text" class="pell input" placeholder="Enter a Number">
+                <button class="btn-pell btn">Enter</button>
+                <h4 class="h3-pell"></h4>
+            </div>
+            <div class="class-hcf divs" id="hcf">
+                <h3>Find the Highest Common Factors of Numbers</h3>
+                <input type="text" class="hcf input" placeholder="Enter array of Numbers. No commas">
+                <button class="btn-hcf btn">Enter</button>
+                <h4 class="h3-hcf"></h4>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-12">
+            <h3 class="h3-header">Others</h3>
+            <hr class="hr">
+            <ol>
+                <li>Machine Learning Projects</li>
+                <ul>
+                    <li><a href="#">Pythonic Programming</a></li>
+                    <li><a href="#">R Programming</a></li>
+                    <li><a href="#">Projects</a></li>
+                </ul>
+            </ol>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
